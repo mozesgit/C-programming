@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-24 07:29:14 PM"/>
+        <attribute name="created" value="UEM7TU9aWTsyMDIyLTA2LTEzOzAxOjQyOjU0IFBNOzE3NTg="/>
+        <attribute name="edited" value="UEM7TU9aWTsyMDIyLTA2LTI0OzA3OjI5OjE0IFBNOzM7MTg3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <output expression="&quot;Enter the number to be squared: &quot;" newline="True"/>
+            <input variable="num"/>
+            <while expression="num != 0">
+                <assign variable="sum" expression="sum + (num*num)"/>
+                <output expression="&quot;Enter the another number to be squared: &quot;" newline="True"/>
+                <input variable="num"/>
+            </while>
+            <output expression="&quot;The sum is : &quot;&amp;sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
